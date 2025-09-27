@@ -1,0 +1,21 @@
+
+public class stringl {
+    public static boolean palindrome(String str) {
+      int s=str.length();
+     for(int i=0;i<str.length();i++){
+      if(str.charAt(i)!=str.charAt(s-1-i)){
+        return false;
+      }
+
+        }
+         return true;
+     }
+       
+    
+    public static void main(String[] args) {
+  
+        String str="racecar";
+        System.out.println(palindrome(str));
+    }
+}
+output:- true;
