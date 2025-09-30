@@ -1,0 +1,19 @@
+
+public static String substring(String str,int si,int en) {
+  String sub="";
+  for(int i=si;i<en;i++){
+      sub+=str.charAt(i);
+  }
+  return sub;
+  
+}
+
+public static void main(String[] args) {
+      
+        String str="helloworld";
+        System.out.println(substring(str, 0, 5));
+    
+      }
+    }
+
+output:- hello
